@@ -1,3 +1,11 @@
+# pip install -r requirements.txt
+# export OPENAI_API_KEY=your-own-key   (Included in the .env file - gitignore file) 
+# streamlit run app.py
+
+# The above lines of code are showcased to run the code and display it in a dedicated browser based web application. 
+# Streamlit is thus used to showcase the actual demo interface for the users
+
+
 """SightAssist: AI image descriptions for blind and low-vision users.
 
 Run with:  streamlit run app.py
