@@ -15,7 +15,7 @@ AI-assisted image descriptions for blind and low-vision users. Prototype for Ass
 ## Running it
 ```bash
 pip install -r requirements.txt
-export OPENAI_API_KEY=your-own-key   # optional; or paste it in the sidebar
+export OPENAI_API_KEY=your-own-key   (Included in the .env file - gitignore file) 
 streamlit run app.py
 ```
 Note that there is no key is included. Without one the app starts in Demo mode. The key typed in the sidebar is kept in the session only.
