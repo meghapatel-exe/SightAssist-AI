@@ -6,7 +6,8 @@ import base64
 import hashlib
 import os
 
-import streamlit as st
+# Interface libs
+import streamlit as st 
 
 MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 
